@@ -1,0 +1,156 @@
+
+body{
+  background-color: rgb(240, 234, 234);
+}
+.mat-toolbar{
+    background: rgb(240, 234, 234);
+    color: #214e41;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 10px;
+    width: 97%;
+    margin-top: 2px;
+   
+  }
+ 
+  .hh{
+    margin-left: 1%;
+  }
+   
+  mat-sidenav {
+    margin: 10px;
+    width: 210px;
+    border-right: none;
+    background: #009b72;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    height: 97%;
+ }
+
+ .content{
+    height: 880px;
+    margin: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    color: black;
+    background-color: rgb(255, 254, 254);
+
+    border-radius: 10px;
+       }
+
+
+       .menu-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1rem;}
+      
+        .menu-button mat-icon {
+          margin-right: 8px;
+        }
+        .avatar {
+            margin-top: 16px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+          }
+          
+          .name {
+            margin-top: 8px;
+            font-weight: normal;
+          }
+          
+          .designation {
+            margin-top: 2px;
+            font-size: 0.7rem;
+            color: lightgrey;
+          }
+          
+          mat-divider {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            background-color: rgba(255, 255, 255, 0.5);
+          }
+            
+
+ mat-sidenav-container{
+    height: calc(100vh - 65px);
+             }
+ 
+  /*.card{
+   
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 80%;
+    width:90%;
+    border: none;
+    background-color: rgb(253, 253, 253);
+  }
+  .tabl{
+    width:auto; 
+    border: none;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+  }
+    .td{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .tr{
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  .out{
+    background-color: beige;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    padding-left: 20px;
+   border-left-color: #009b72;
+   border-left-width:5px ;
+   border-bottom-left-radius: 3px;
+   border-top-left-radius: 3px;
+  }
+
+  .c1{
+    padding-left: 230px;
+  }
+ 
+  .l2{
+    padding-left: 230px;
+  }
+
+  .lab{
+    margin-left: 10px;
+  }
+ 
+  .prf{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+
+  form{
+    margin-top: 30px;
+  }
+<mat-toolbar>
+  <button
+  mat-icon-button
+  *ngIf="sidenav.mode === 'over'"
+  (click)="sidenav.toggle()"
+>
+  <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+  <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+</button>
+  office régional de mise en valeur agricole de ouarzazate
+</mat-toolbar>*/
