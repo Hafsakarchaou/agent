@@ -1,0 +1,68 @@
+.formulaire{
+    margin-top: 5%;
+    font-size: .90rem;
+    width: 800px;
+    margin-left: 50px;
+    
+    
+}
+
+form{
+  width: 100%;
+    justify-content: space-between;
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e4e4e4;
+    transition: 0.2s;
+    color:lightgray;
+}
+input:hover{
+    border-bottom:2px solid #009B72;
+}
+.zone{
+    width: 41%;
+}
+button{
+    width: 192px;
+    height:30px ;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer ;
+    margin-top: 30px;
+    outline: none;
+    text-align: center;    
+}
+
+label{
+    font-family: 'Playfair Display', serif;
+    color: bold lightgray;
+
+}
+
+input.wd{
+    width :90%
+}
+
+.Accepter{
+  background-color: #009B72;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+.Accepter:hover{
+background-color: #10b489 ;
+cursor: pointer;
+box-shadow: 0 0 5px #10b489,
+            0 0 20px #10b489,        
+            0 0 60px #10b489,
+            0 0 150px #10b489                ;
+}
+
+
+

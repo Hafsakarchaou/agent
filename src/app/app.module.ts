@@ -19,10 +19,12 @@ import { AvisretourComponent } from './avisretour/avisretour.component';
 import { LesdecisionComponent } from './lesdecision/lesdecision.component';
 import { ProfilComponent } from './profil/profil.component';
 import { ConsulterdemandeComponent } from './consulterdemande/consulterdemande.component';
+import { AvisComponent } from './avis/avis.component';
+import { DecisionComponent } from './decision/decision.component';
 
 @NgModule({
   declarations: 
-  [AppComponent, SidebarComponent, CongeadministratifComponent, CongeexceptionnelComponent, CongemaladieComponent, CongematerniteComponent, MesdemandesComponent, AvisretourComponent, LesdecisionComponent, ProfilComponent, ConsulterdemandeComponent],
+  [AppComponent, SidebarComponent, CongeadministratifComponent, CongeexceptionnelComponent, CongemaladieComponent, CongematerniteComponent, MesdemandesComponent, AvisretourComponent, LesdecisionComponent, ProfilComponent, ConsulterdemandeComponent, AvisComponent, DecisionComponent],
   
   imports: [
     BrowserModule,
