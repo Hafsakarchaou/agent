@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&display=swap');
+
+h1{
+    font-size: 2em;
+    color: #2e2e2e;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 320px;
+}
+
+
 .formulaire{
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: .90rem;
-    width: 800px;
+    width: 900px;
     margin-left: 50px;
     
     
@@ -24,7 +35,7 @@ input:hover{
     border-bottom:2px solid #009B72;
 }
 .zone{
-    width: 41%;
+    width:35%;
 }
 button{
     width: 192px;
@@ -47,7 +58,7 @@ label{
 }
 
 input.wd{
-    width :90%
+    width :80%
 }
 
 .Accepter{
@@ -62,6 +73,9 @@ box-shadow: 0 0 5px #10b489,
             0 0 20px #10b489,        
             0 0 60px #10b489,
             0 0 150px #10b489                ;
+}
+.zone1{
+    width: 30%;
 }
 
 

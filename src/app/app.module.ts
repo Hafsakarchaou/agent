@@ -21,10 +21,11 @@ import { ProfilComponent } from './profil/profil.component';
 import { ConsulterdemandeComponent } from './consulterdemande/consulterdemande.component';
 import { AvisComponent } from './avis/avis.component';
 import { DecisionComponent } from './decision/decision.component';
+import { ConsulteravisComponent } from './consulteravis/consulteravis.component';
 
 @NgModule({
   declarations: 
-  [AppComponent, SidebarComponent, CongeadministratifComponent, CongeexceptionnelComponent, CongemaladieComponent, CongematerniteComponent, MesdemandesComponent, AvisretourComponent, LesdecisionComponent, ProfilComponent, ConsulterdemandeComponent, AvisComponent, DecisionComponent],
+  [AppComponent, SidebarComponent, CongeadministratifComponent, CongeexceptionnelComponent, CongemaladieComponent, CongematerniteComponent, MesdemandesComponent, AvisretourComponent, LesdecisionComponent, ProfilComponent, ConsulterdemandeComponent, AvisComponent, DecisionComponent, ConsulteravisComponent],
   
   imports: [
     BrowserModule,

@@ -3,30 +3,33 @@ h1{
     font-size: 2em;
     color: #2e2e2e;
     margin-bottom: 50px;
-    text-align:center ;
     font-family: 'Playfair Display', serif;
+    margin-left: 320px;
 }
 #appointmant{
     background-color: #f9f9f9;
-    padding: 80px 0;
+
 }
  .container{
     max-width: 1200px;
- 
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction:row-reverse ;
     background-color: white;
-    height: 1010px;
-    padding: 10px;
+    height: 900px;
+    
     border-radius: 15px;
     box-shadow: 0px 10px 50px -10px #d6d6d6;
 }
 .formulaire{
-    width:100%;
-    margin-right: 40px;
-    margin-left:40px ;
+    
+    font-size: .90rem;
+    width: 900px;
+    margin-left: 60px;
+    margin-top: -16%;
+    
+    
 }
 
 form{
@@ -46,7 +49,7 @@ input:hover{
     border-bottom:2px solid #009B72;
 }
 .zone{
-    width: 39%;
+    width:35%;
 }
 button{
     width: 192px;
@@ -69,8 +72,22 @@ label{
 }
 
 input.wd{
-    width :90%
+    width :80%
 }
 
- 
-
+.Accepter{
+  background-color: #009B72;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+.Accepter:hover{
+background-color: #10b489 ;
+cursor: pointer;
+box-shadow: 0 0 5px #10b489,
+            0 0 20px #10b489,        
+            0 0 60px #10b489,
+            0 0 150px #10b489                ;
+}
+.zone1{
+    width: 30%;
+}
